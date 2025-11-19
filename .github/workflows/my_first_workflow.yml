@@ -12,13 +12,13 @@ jobs:
 
       matrix:
 
-        os: [ubuntu-latest, ubuntu-20.04]
+        os: [ubuntu-latest]
 
     steps:
 
       - name: echo a string
 
-        run: echo "Hello world"
+        run: echoo "Hello world"
 
       - name: multiline script
 
